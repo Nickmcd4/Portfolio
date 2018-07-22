@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $.each( $( "#nav a" ), function( i, link ) {
-        $( link ).delay( i * 100 ).fadeIn( 4000 );
+        $( link ).delay( i * 300 ).fadeIn( 7000 );
     });
 
     
