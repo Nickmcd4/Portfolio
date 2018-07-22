@@ -1,10 +1,156 @@
-.header-1{
-    background-color: #0B121A;
+.bgimage{
+    background-image: url(../images/bgFirst.jpg);
+}
+
+#nav{
+    text-align: center;
+    background-color: #0E1319;
+    color: #83DDCE;
+}
+#nav a {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    display: none;
+}
+
+
+.section-uno{
+    background-color: #0E1319;
 }
 h1{
-    color: #8CF0CB;
-    font-size: 500%;
+    color: #83DDCE;
+    font-size: 600%;
+    font-family: 'Permanent Marker', cursive;
 }
+.name{
+    width:55%;
+    -webkit-animation: fadeinright 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeinright 5s; /* Firefox < 16 */
+     -ms-animation: fadeinright 5s; /* Internet Explorer */
+      -o-animation: fadeinright 5s; /* Opera < 12.1 */
+         animation: fadeinright 5s;
+}
+@keyframes fadeinright {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeinright {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeinright {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeinright {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+.intro {
+    width:50%;
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+     -ms-animation: fadein 5s; /* Internet Explorer */
+      -o-animation: fadein 5s; /* Opera < 12.1 */
+         animation: fadein 5s;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #icon-container{
@@ -25,6 +171,7 @@ i {
     padding:10px;
     background-color: gray;
     color: whitesmoke;
+    
 }
 
 i:hover{
@@ -34,3 +181,7 @@ i:hover{
     background-color: whitesmoke;
     color: gray;
 }
+
+
+
+
