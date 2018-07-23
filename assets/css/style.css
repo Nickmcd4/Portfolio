@@ -232,6 +232,9 @@ i {
     cursor: default;
     background: #0E1319;
     margin-bottom: 10%;
+    cursor: pointer;
+   
+
     
   }
   
@@ -243,6 +246,7 @@ i {
     top: 0;
     left: 0;
     padding: 50px 20px;
+   
     
   }
   
@@ -257,6 +261,7 @@ i {
     transform: translate3d(-10px,0,0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    
   }
   
   .hovereffect:hover img {
@@ -264,6 +269,7 @@ i {
     filter: alpha(opacity=40);
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+    
   }
   
   .hovereffect h2 {
@@ -276,6 +282,7 @@ i {
     padding: 0.5em 0;
     background-color: transparent;
     color: #83DDCE;
+    
   }
   
   .hovereffect h2:after {
@@ -290,11 +297,13 @@ i {
     transition: transform 0.35s;
     -webkit-transform: translate3d(-100%,0,0);
     transform: translate3d(-100%,0,0);
+    
   }
   
   .hovereffect:hover h2:after {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+    
   }
   
   .hovereffect a, .hovereffect p {
@@ -305,6 +314,7 @@ i {
     transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: translate3d(100%,0,0);
     transform: translate3d(100%,0,0);
+    text-decoration: none;
   }
   
   .hovereffect:hover a, .hovereffect:hover p {
@@ -312,4 +322,8 @@ i {
     filter: alpha(opacity=100);
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+  }
+
+  .underlineMe:hover{
+      text-decoration: underline;
   }
