@@ -18,6 +18,12 @@ $(window).scroll(function(){
 
 
 
+$(".contactboi").click(function(){
+    console.log("working");
+$(".form-box").fadeToggle("slow");
+console.log("complete");
+});
+
   
 });
 
