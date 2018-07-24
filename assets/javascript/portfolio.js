@@ -16,12 +16,11 @@ $(window).scroll(function(){
     $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
 });
 
+$("#form-box").hide();
 
+$("#contactboi").click(function(){
+$("#form-box").fadeToggle(1500);
 
-$(".contactboi").click(function(){
-    console.log("working");
-$(".form-box").fadeToggle("slow");
-console.log("complete");
 });
 
   

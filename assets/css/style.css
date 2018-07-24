@@ -227,8 +227,6 @@ i {
     bottom: 60%;
     z-index: 50;
     margin: auto;
-    transition: 2s;
-    visibility: hidden;
 }
 
 
